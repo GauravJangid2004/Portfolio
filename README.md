@@ -3,13 +3,16 @@
 A full-stack personal portfolio website built with the **MERN Stack** (MongoDB, Express.js, React.js, Node.js).
 
 
+## Live Demo: https://gaurav-portfolio-sage-eight.vercel.app
+## Backend API: https://gaurav-portfolio-api-6tte.onrender.com
+
 
 ## Tech Stack
 
 **Frontend:** React.js · Vite · Tailwind CSS · Framer Motion · React Router v6  
 **Backend:** Node.js · Express.js · Mongoose  
 **Database:** MongoDB Atlas  
-**Email:** Nodemailer (Gmail SMTP)  
+**Email:** Nodemailer  
 **Deploy:** Vercel (frontend) · Render (backend)
 
 
