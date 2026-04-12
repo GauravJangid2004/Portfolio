@@ -93,13 +93,12 @@ cd server
 npm install
 npm run dev        # Runs on http://localhost:5000
 ```
-
 ### 3. Setup the frontend
 ```bash
 cd client
 npm install
 npm run dev        # Runs on http://localhost:5173
-
+```
 
 
 **Gaurav Jangid**  
