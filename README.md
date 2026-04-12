@@ -62,7 +62,6 @@ portfolio-mern/
 ```
 
 
-
 ## API Endpoints
 
 | Method | Route | Description |
@@ -74,6 +73,32 @@ portfolio-mern/
 | GET | `/api/resume/docx` | Download resume DOCX |
 | GET | `/api/resume/preview` | Preview Resume |
 
+
+
+## Local Setup
+
+### Prerequisites
+- Node.js v18+
+- MongoDB Atlas account
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/GauravJangid2004/Portfolio
+cd gaurav-portfolio
+```
+
+### 2. Setup the backend
+```bash
+cd server
+npm install
+npm run dev        # Runs on http://localhost:5000
+```
+
+### 3. Setup the frontend
+```bash
+cd client
+npm install
+npm run dev        # Runs on http://localhost:5173
 
 
 
