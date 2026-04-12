@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import { motion, useInView, AnimatePresence } from 'framer-motion'
 
-const API_BASE = '/api/resume'
+const API_BASE = `${import.meta.env.VITE_API_URL || ''}/api/resume`
 
 /* ── PDF Modal Preview ─────────────────────────────────────────────────────── */
 function PDFModalPreview({ isOpen, onClose }) {
