@@ -29,5 +29,5 @@ Thumbs.db
 .idea/
 
 # ── Resume files ───
-server/public/resume/Gaurav_Jangid_Resume.pdf
-server/public/resume/Gaurav_Jangid_Resume.docx
+# server/public/resume/Gaurav_Jangid_Resume.pdf
+# server/public/resume/Gaurav_Jangid_Resume.docx
