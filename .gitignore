@@ -1,0 +1,33 @@
+# ── Dependencies ───────────────────────────────────────────────────────────
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# ── Build outputs ───────────────────────────────────────────────────────────
+client/dist/
+client/.vite/
+
+# ── Environment variables ──────────────────────────────
+.env
+server/.env
+client/.env
+client/.env.local
+client/.env.production
+*.env
+
+# ── Logs ────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# ── OS files ────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE ─────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+
+# ── Resume files ───
+server/public/resume/Gaurav_Jangid_Resume.pdf
+server/public/resume/Gaurav_Jangid_Resume.docx
